@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-info {
+  color: #111;
+  text-align: center;
+  margin-top: 100px;
+  margin-top: 200px;
+  font-size: 1.5rem;
+}
+
+.Calculadora {
+  max-width: 250px;
+  background: #111;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 4px 5px 4px #777;
+}
+
+table td {
+  display: inline-block;
+  margin: auto;
+}
+
+.btn {
+  margin: 3px;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+}
+
+.delete {
+  height: 20px;
+}
+
+.ac,
+.especial,
+.igual {
+  background: rebeccapurple;
+  color: #fff;
+}
+
+.result {
+  height: 100px;
+  text-align: right;
+  font-size: 35px;
+  word-wrap: break-word;
+  max-width: 200px;
+  padding: 20px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  margin: 20px;
+}
